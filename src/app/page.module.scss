@@ -1,0 +1,41 @@
+.main {
+  .big_picture {
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    opacity: 0.4;
+  }
+
+  .profil_picture {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+
+    .picture {
+      background-size: cover;
+      width: 350px;
+      height: 350px;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute;
+      top: -50%;
+      box-shadow: 1px 12px 15px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .big_picture {
+      height: 30vh;
+    }
+
+    .profil_picture {
+      height: 250px;
+  
+      .picture {
+        width: 250px;
+        height: 250px;
+      }
+    }
+  }
+}
