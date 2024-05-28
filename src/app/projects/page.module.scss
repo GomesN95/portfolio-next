@@ -1,3 +1,10 @@
 .main {
-  
+  .projects {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    max-width: 1096px;
+    margin: auto;
+  }
 }
