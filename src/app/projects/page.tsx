@@ -8,41 +8,41 @@ import styles from './page.module.scss';
 export default function Projects() {
   const projects: IProject[] = [
     {
-      name: 'Project 1',
+      name: 'Design My BIC',
       cover: DESIGNMYBIC,
     },
     {
-      name: 'Project 2',
+      name: 'Monster Playable',
       cover: MONSTERPLAYABLE,
     },
     {
-      name: 'Project 3',
+      name: 'GameUtils',
+      cover: DESIGNMYBIC,
+    },
+    {
+      name: 'YSO Network',
+      cover: DESIGNMYBIC,
+    },
+    {
+      name: 'Starliva',
+      cover: DESIGNMYBIC,
+    },
+    {
+      name: 'Voodoo Blog',
       cover: VOODOO,
     },
     {
-      name: 'Project 3',
+      name: 'Le Faubourg',
       cover: LEFAUBOURG,
     },
     {
-      name: 'Project 3',
+      name: 'InoVoiz',
       cover: DESIGNMYBIC,
     },
     {
-      name: 'Project 3',
+      name: 'Votre garage moto',
       cover: DESIGNMYBIC,
     },
-    {
-      name: 'Project 3',
-      cover: DESIGNMYBIC,
-    },
-    {
-      name: 'Project 3',
-      cover: DESIGNMYBIC,
-    },
-    {
-      name: 'Project 3',
-      cover: DESIGNMYBIC,
-    }
   ];
   return (
     <div className={styles.main}>
