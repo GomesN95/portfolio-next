@@ -19,10 +19,18 @@ export default function Header() {
           </li>
           <li>
             <Link
-              className={`link ${pathname === '/contact' ? 'active' : ''}`}
-              href="/contact"
+              className={`link ${pathname === '/education' ? 'active' : ''}`}
+              href="/education"
             >
-            Contact
+            Education
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={`link ${pathname === '/experiences' ? 'active' : ''}`}
+              href="/experiences"
+            >
+            Experiences
             </Link>
           </li>
           <li>
@@ -31,6 +39,14 @@ export default function Header() {
               href="/projects"
             >
             Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={`link ${pathname === '/contact' ? 'active' : ''}`}
+              href="/contact"
+            >
+            Contact
             </Link>
           </li>
         </ul>
