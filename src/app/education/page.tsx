@@ -78,6 +78,7 @@ export function CircleYear(props: {
   return (
     <div className={styles.circleYear}>
       <div className={styles.circle}>
+        <EducationCard education={props.education} position={props.index % 2 === 0 ? 'right' : 'left'} />
         <p>{props.education.yearEnd}</p>
       </div>
       {
@@ -95,9 +96,10 @@ export function CircleYear(props: {
 
 export function EducationCard(props: {
   education: IEducation;
+  position: 'right' | 'left'
 }) {
   return (
-    <div className={styles.educationCard}>
+    <div className={`${styles.educationCard} ${styles[`educationCard-${props.position}`]}`}>
       <div className={styles.inner}>
         <p>{props.education.diploma}</p>
         <p>{props.education.field}</p>

@@ -5,13 +5,22 @@
   height: 100px;
   background-color: rgba($color: #ffffff, $alpha: 0.15);
   border-radius: 20px;
+  position: absolute;
+
+  &-right {
+    left: 55%;
+  }
+
+  &-left {
+    right: 55%;
+  }
 
   .inner {
     padding: 12px;
 
     .footer {
       display: flex;
-      justify-content: end;
+      justify-content: flex-end;
       width: 100%;
     }
   }

@@ -43,6 +43,10 @@ export default function Projects() {
       name: 'Votre garage moto',
       cover: DESIGNMYBIC,
     },
+    {
+      name: 'Hit The Road',
+      cover: DESIGNMYBIC,
+    },
   ];
   return (
     <div className={styles.main}>
